@@ -1,0 +1,3 @@
+**/*.vim
+**/dst
+**/node_modules
