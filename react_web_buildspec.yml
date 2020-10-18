@@ -10,7 +10,6 @@ phases:
       - npm install
   build:
     commands:
-      - cd react_web
       - npm run build
 
 artifacts:
@@ -19,4 +18,4 @@ artifacts:
     - index.html
   discard-paths: yes
   name: react_web_pack
-  base-directory: react_web/dst
+  base-directory: dst
