@@ -8,15 +8,15 @@ phases:
     commands:
       - cd react_web
       - npm install
-      - cd -
   build:
     commands:
       - cd react_web
       - npm run build
-      - cd dst
 
 artifacts:
   files:
     - bundle-main.js
     - index.html
+  discard-paths: yes
   name: react_web_pack
+  base-directory: react_web/dst
