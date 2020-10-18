@@ -18,4 +18,4 @@ artifacts:
     - index.html
   discard-paths: yes
   name: react_web_pack
-  base-directory: dst
+  base-directory: react_web/dst
