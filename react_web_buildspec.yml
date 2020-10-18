@@ -10,7 +10,7 @@ phases:
       - npm install
       - cd -
   build:
-    commnads:
+    commands:
       - cd react_web
       - npm run build
       - cd -
