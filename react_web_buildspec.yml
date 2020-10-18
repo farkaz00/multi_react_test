@@ -9,10 +9,10 @@ phases:
       - cd react_web
       - npm install
       - cd -
-    build:
-      - cd react_web
-      - npm run build
-      - cd -
+  build:
+    - cd react_web
+    - npm run build
+    - cd -
 
 artifacts:
   files:
