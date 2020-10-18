@@ -13,10 +13,10 @@ phases:
     commands:
       - cd react_web
       - npm run build
-      - cd -
+      - cd dst
 
 artifacts:
   files:
-    - react_web/dst/bundle-main.js
-    - react_web/dst/index.html
+    - bundle-main.js
+    - index.html
   name: react_web_pack
