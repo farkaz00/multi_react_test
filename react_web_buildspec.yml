@@ -19,3 +19,4 @@ artifacts:
   files:
     - react_web/dst/bundle-main.js
     - react_web/dst/index.html
+  name: react_web_pack
